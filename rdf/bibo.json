@@ -1,0 +1,4544 @@
+[
+  {
+    "@id": "_:b0",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b1" }]
+  },
+  {
+    "@id": "_:b1",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b2" }]
+  },
+  {
+    "@id": "_:b10",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b11" }]
+  },
+  {
+    "@id": "_:b11",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b12",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b13" }]
+  },
+  {
+    "@id": "_:b13",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b14" }]
+  },
+  {
+    "@id": "_:b14",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b15",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b16" }]
+  },
+  {
+    "@id": "_:b16",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b17" }]
+  },
+  {
+    "@id": "_:b17",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b18",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b19" }]
+  },
+  {
+    "@id": "_:b19",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b20" }]
+  },
+  {
+    "@id": "_:b2",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b20",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b21",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b22" }]
+  },
+  {
+    "@id": "_:b22",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b23" }]
+  },
+  {
+    "@id": "_:b23",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b24",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b25" }]
+  },
+  {
+    "@id": "_:b25",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b26" }]
+  },
+  {
+    "@id": "_:b26",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b27",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b28" }]
+  },
+  {
+    "@id": "_:b28",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b29" }]
+  },
+  {
+    "@id": "_:b29",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b3",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b4" }]
+  },
+  {
+    "@id": "_:b30",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b31" }]
+  },
+  {
+    "@id": "_:b31",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b32" }]
+  },
+  {
+    "@id": "_:b32",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b33",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b34" }]
+  },
+  {
+    "@id": "_:b34",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b35" }]
+  },
+  {
+    "@id": "_:b35",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b36",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b37" }]
+  },
+  {
+    "@id": "_:b37",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b38" }]
+  },
+  {
+    "@id": "_:b38",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b39",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b40" }]
+  },
+  {
+    "@id": "_:b4",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b5" }]
+  },
+  {
+    "@id": "_:b40",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b41" }]
+  },
+  {
+    "@id": "_:b41",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b42",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b43" }]
+  },
+  {
+    "@id": "_:b43",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b44" }]
+  },
+  {
+    "@id": "_:b44",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b45",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b46" }]
+  },
+  {
+    "@id": "_:b46",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b47" }]
+  },
+  {
+    "@id": "_:b47",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b48",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b49" }]
+  },
+  {
+    "@id": "_:b49",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b50" }]
+  },
+  {
+    "@id": "_:b5",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b50",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b51",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b52" }]
+  },
+  {
+    "@id": "_:b52",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b53" }]
+  },
+  {
+    "@id": "_:b53",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b54",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b55" }]
+  },
+  {
+    "@id": "_:b55",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b56" }]
+  },
+  {
+    "@id": "_:b56",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b57",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b58" }]
+  },
+  {
+    "@id": "_:b58",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b59" }]
+  },
+  {
+    "@id": "_:b59",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b6",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b7" }]
+  },
+  {
+    "@id": "_:b60",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b61" }]
+  },
+  {
+    "@id": "_:b61",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b62" }]
+  },
+  {
+    "@id": "_:b62",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b63",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b64" }]
+  },
+  {
+    "@id": "_:b64",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b65" }]
+  },
+  {
+    "@id": "_:b65",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b66",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b67" }]
+  },
+  {
+    "@id": "_:b67",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b68" }]
+  },
+  {
+    "@id": "_:b68",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b69",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b70" }]
+  },
+  {
+    "@id": "_:b7",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b8" }]
+  },
+  {
+    "@id": "_:b70",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b71" }]
+  },
+  {
+    "@id": "_:b71",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b72",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b73",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Legislation" }
+    ]
+  },
+  {
+    "@id": "_:b74",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ]
+  },
+  {
+    "@id": "_:b75",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b76",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [{ "@id": "_:b77" }]
+  },
+  {
+    "@id": "_:b77",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b78" }]
+  },
+  {
+    "@id": "_:b78",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [{ "@id": "_:b79" }]
+  },
+  {
+    "@id": "_:b79",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b8",
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#first": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#rest": [
+      { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" }
+    ]
+  },
+  {
+    "@id": "_:b80",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b81",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDocument" }
+    ]
+  },
+  {
+    "@id": "_:b82",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/isPartOf" }
+    ],
+    "http://www.w3.org/2002/07/owl#maxCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b83",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b84",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Article" }
+    ]
+  },
+  {
+    "@id": "_:b85",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b86",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Issue" }
+    ]
+  },
+  {
+    "@id": "_:b87",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b88",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Issue" }
+    ]
+  },
+  {
+    "@id": "_:b89",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Book" }
+    ]
+  },
+  {
+    "@id": "_:b9",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#unionOf": [{ "@id": "_:b10" }]
+  },
+  {
+    "@id": "_:b90",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b91",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Issue" }
+    ]
+  },
+  {
+    "@id": "_:b92",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b93",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Issue" }
+    ]
+  },
+  {
+    "@id": "_:b94",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ]
+  },
+  {
+    "@id": "_:b95",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Slide" }
+    ]
+  },
+  {
+    "@id": "_:b96",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#minCardinality": [
+      {
+        "@value": "1",
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+      }
+    ]
+  },
+  {
+    "@id": "_:b97",
+    "@type": ["http://www.w3.org/2002/07/owl#Restriction"],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      { "@id": "http://purl.org/dc/terms/hasPart" }
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      { "@id": "http://purl.org/ontology/bibo/Webpage" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/doi",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/doi" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/eIssn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/eissn" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/edition",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/edition" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/endingPage",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/pageEnd" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/isbn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/isbn" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/issn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/issn" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/issue",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/issue" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/number",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/startingPage",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/pageStart" }
+    ]
+  },
+  {
+    "@id": "http://prismstandard.org/namespaces/1.2/basic/volume",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2002/07/owl#equivalentProperty": [
+      { "@id": "http://purl.org/ontology/bibo/volume" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#Event",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe bibliographic related events such as conferences, hearing, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#agent",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#changeNote": [
+      {
+        "@value": "Used to link an agent (a person) to an event (a conference, an hearing, etc.)",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#place",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to relate an event such as a conference to the geographical place where it happens, for example Paris.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#produced_in",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#product",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link an event such as a conference to an outcome (a product) of that event, for example, an article, a proceeding, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#sub_event",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link big events with smaller events such as workshops that happen in the context of a conference.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/NET/c4dm/event.owl#time",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the timing of an event. For example, when a conference starts and stops.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/Agent",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@value": "BIBO assert that a dcterms:Agent is an equivalent class to foaf:Agent.\r\nThis means that all the individuals belonging to the foaf:Agent class\r\nalso belongs to the dcterms:Agent class. This way, dcterms:contributor\r\ncan be used on foaf:Person, foaf:Organization, foaf:Agent and foaf:Group.\r\nEven if this link is not done in neither the FOAF nor the DCTERMS ontologies this is a wide spread fact that is asserted by BIBO.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/contributor",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link a bibliographic item to one of its contributor: can be an author, an editor, a publisher, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/created",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the creation date of a bibliographic item",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/date" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/creator",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/date",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Use to link a bibliographic item to the date of an event. Check dcterms:created and other for proper specializations for this property",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/description",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty",
+      "http://www.w3.org/2002/07/owl#DatatypeProperty"
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe a bibliographic resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/format",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#example": [
+      {
+        "@value": "<dcterms:format>\r\n   <dcterms:MediaTypeOrExtent>\r\n     <rdf:value>text/html</rdf:value>\r\n     <rdfs:label>HTML</rdfs:label>\r\n   </dcterms:MediaTypeOrExtent>\r\n </dcterms:format>",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the format of a bibliographic resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/hasPart",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/identifier",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/isPartOf",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/isReferencedBy",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to relate a reference citation to a bibliographic resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/isVersionOf",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/issued",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the issue date of a bibliographic resource",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/date" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/language",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link a bibliographic resource to the language used to express it.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link a bibliographic item to its publisher.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/references",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/relation",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/rights",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe rights related to a bibliographic resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/subject",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the subject of a bibliographic resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/dc/terms/title",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#AnnotationProperty",
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
+    ],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the title of a bibliographic resource",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/",
+    "@type": ["http://www.w3.org/2002/07/owl#Ontology"],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      { "@value": "http://purl.org/ontology/bibo/1.3/" }
+    ],
+    "http://purl.org/dc/terms/title": [
+      { "@value": "The Bibliographic Ontology" }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@value": "The Bibliographic Ontology describes\r\nbibliographic things on the semantic Web in RDF.  This ontology can be\r\nused as a citation ontology, as a document classification ontology, or\r\nsimply as a way to describe any kind of document in RDF. It has been\r\ninspired by many existing document description metadata formats, and\r\ncan be used as a common ground for converting other bibliographic data\r\nsources.",
+        "@language": "en"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      { "@id": "http://purl.org/ontology/bibo/bdarcus" },
+      { "@id": "http://purl.org/ontology/bibo/fgiasson" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/AcademicArticle",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Academic Article", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Article" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A scholarly academic article, typically published in a journal.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Article",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Article", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/AudioDocument",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "audio document", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "An audio document; aka record.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/AudioVisualDocument",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "audio-visual document", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An audio-visual document; film, video, and so forth.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Bill",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Bill", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Legislation" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Draft legislation presented for discussion to a legal body.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Book",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Book", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/BookSection",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Book Section", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/DocumentPart" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A section of a book.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Brief",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Brief", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/LegalCaseDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A written argument submitted to a court.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Chapter",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Chapter", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/BookSection" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A chapter of a book.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Code",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Code", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Periodical" },
+      { "@id": "_:b72" },
+      { "@id": "_:b73" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A collection of statutes.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/CollectedDocument",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Collected Document", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" },
+      { "@id": "_:b74" },
+      { "@id": "_:b75" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document that simultaneously contains other documents.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Collection",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Collection", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [{ "@id": "_:b76" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A collection of Documents or Collections",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Conference",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Conference", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A meeting for consultation or discussion.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/CourtReporter",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Court Reporter", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Periodical" },
+      { "@id": "_:b80" },
+      { "@id": "_:b81" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A collection of legal cases.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Document",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Document", "@language": "en" }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      { "@id": "http://xmlns.com/foaf/0.1/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/DocumentPart",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "document part", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" },
+      { "@id": "_:b82" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "a distinct part of a larger document or collected document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/DocumentStatus",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Document Status", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The status of the publication of a document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/EditedBook",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Edited Book", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/CollectedDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "An edited book.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Email",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "EMail", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/PersonalCommunicationDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A written communication addressed to a person or organization and transmitted electronically.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Event",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Excerpt",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Excerpt", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/DocumentPart" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A passage selected from a larger work.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Film",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Film", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/AudioVisualDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "aka movie.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Hearing",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Hearing", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An instance or a session in which testimony and arguments are presented, esp. before an official, as a judge in a lawsuit.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Image",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Image", "@language": "en" }
+    ],
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
+      { "@id": "http://xmlns.com/foaf/0.1/Image" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document that presents visual or diagrammatic information.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Interview",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Interview", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A formalized discussion between two or more people.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Issue",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Issue", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/CollectedDocument" },
+      { "@id": "_:b83" },
+      { "@id": "_:b84" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "something that is printed or published and distributed, esp. a given number of a periodical",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Journal",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Journal", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Periodical" },
+      { "@id": "_:b85" },
+      { "@id": "_:b86" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A periodical of scholarly journal Articles.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/LegalCaseDocument",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Legal Case Document", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A document accompanying a legal case.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/LegalDecision",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Decision", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/LegalCaseDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document containing an authoritative determination (as a decree or judgment) made after consideration of facts or law.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/LegalDocument",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Legal Document", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A legal document; for example, a court decision, a brief, and so forth.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Legislation",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Legislation", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A legal document proposing or enacting a law or a group of laws.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Letter",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Letter", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/PersonalCommunicationDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A written or printed communication addressed to a person or organization and usually transmitted by mail.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Magazine",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Magazine", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Periodical" },
+      { "@id": "_:b87" },
+      { "@id": "_:b88" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A periodical of magazine Articles. A magazine is a publication that is issued periodically, usually bound in a paper cover, and typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Manual",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Manual", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A small reference book, especially one giving instructions.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Manuscript",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Manuscript", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An unpublished Document, which may also be submitted to a publisher for publication.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Map",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Map", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Image" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A graphical depiction of geographic features.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/MultiVolumeBook",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Multivolume Book", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" },
+      { "@id": "_:b89" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A loose, thematic, collection of Documents, often Books.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Newspaper",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Newspaper", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Periodical" },
+      { "@id": "_:b90" },
+      { "@id": "_:b91" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A periodical of documents, usually issued daily or weekly, containing current news, editorials, feature articles, and usually advertising.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Note",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Note", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "Notes or annotations about a resource.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Patent",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Patent", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Performance",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Performance", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A public performance.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Periodical",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Periodical", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" },
+      { "@id": "_:b92" },
+      { "@id": "_:b93" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A group of related documents issued at regular intervals.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/PersonalCommunication",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Personal Communication", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A communication between an agent and one or more specific recipients.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/PersonalCommunicationDocument",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Personal Communication Document", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A personal communication manifested in some document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Proceedings",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Proceedings", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Book" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A compilation of documents published from an event, such as a conference.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Quote",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Quote", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Excerpt" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "An excerpted collection of words.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/ReferenceSource",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Reference Source", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document that presents authoritative reference information, such as a dictionary or encylopedia .",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Report",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Report", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document describing an account or statement describing in detail an event, situation, or the like, usually as the result of observation, inquiry, etc..",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Series",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Series", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" },
+      { "@id": "_:b94" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A loose, thematic, collection of Documents, often Books.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Slide",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Slide", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/DocumentPart" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A slide in a slideshow", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Slideshow",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Slideshow", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" },
+      { "@id": "_:b95" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A presentation of a series of slides, usually presented in front of an audience with written text and images.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Specification",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Specification", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "testing" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A document describing a specification.", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Standard",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Standard", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Specification" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document describing a standard: a specification organized through a standards body.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Statute",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Statute", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Legislation" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A bill enacted into law.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Thesis",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Thesis", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A document created to summarize research findings associated with the completion of an academic degree.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/ThesisDegree",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Thesis degree", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "The academic degree of a Thesis", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Webpage",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Webpage", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Website",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Website", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" },
+      { "@id": "_:b96" },
+      { "@id": "_:b97" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A group of Webpages accessible on the Web.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/Workshop",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "Workshop", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/abstract",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "abstract" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A summary of the resource." }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Resource" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/affirmedBy",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A legal decision that affirms a ruling.", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDecision" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDecision" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/subsequentLegalDecision" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/annotates",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "annotates", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Critical or explanatory note for a Document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/relation" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Note" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Resource" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/argued",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "date argued", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The date on which a legal case is argued before a court. Date is of format xsd:date",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/asin",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b27" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/authorList",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "list of authors", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/contributorList" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [{ "@id": "_:b0" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/bdarcus",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://purl.org/net/darcusb/info#me",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [{ "@value": "Bruce D'Arcus" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/chapter",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "chapter", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "An chapter number", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/BookSection" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/citedBy",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "cited by", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates a document to another document that cites the\r\nfirst document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      { "@id": "http://purl.org/ontology/bibo/cites" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/cites",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "cites", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates a document to another document that is cited\r\nby the first document as reference, comment, review, quotation or for\r\nanother purpose.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/references" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/coden",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b30" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/content",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "content", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#deprecated": [{ "@value": true }],
+    "http://www.w3.org/2004/02/skos/core#historyNote": [
+      {
+        "@value": "bibo:content has been deprecated; we recommend to use \"rdf:value\" for this purpose. Here is the rational behind this choice: http://www.w3.org/TR/2004/REC-rdf-primer-20040210/#rdfvalue",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "This property is for a plain-text rendering of the content of a Document. While the plain-text content of an entire document could be described by this property.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/contributorList",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "list of contributors", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [{ "@id": "_:b3" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/court",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "court", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A court associated with a legal document; for example, that which issues a decision.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Organization" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/degree",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "degree", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "The thesis degree.", "@language": "en" }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@value": "We are not defining, using an enumeration, the range of the bibo:degree to the defined list of bibo:ThesisDegree. We won't do it because we want people to be able to define new degress if needed by some special usecases. Creating such an enumeration would restrict this to happen.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Thesis" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/ThesisDegree" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/degrees/ma",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/ThesisDegree",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "M.A.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "masters degree in arts", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/degrees/ms",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/ThesisDegree",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "M.S.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "masters degree in science", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/degrees/phd",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/ThesisDegree",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "PhD degree", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "PhD degree", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/director",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "director" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A Film director.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/contributor" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/AudioVisualDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/distributor",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "distributor", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Distributor of a document or a collection of documents.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b6" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/doi",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b33" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/eanucc13",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b36" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/edition",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "edition", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The name defining a special edition of a document. Normally its a literal value composed of a version number and words.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/editor",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "editor" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A person having managerial and sometimes policy-making responsibility for the editorial part of a publishing firm or of a newspaper, magazine, or other publication.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/contributor" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b9" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/editorList",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "list of editors", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/contributorList" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [{ "@id": "_:b12" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/eissn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/fgiasson",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://xmlns.com/foaf/0.1/Person"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      {
+        "@value": "http://fgiasson.com/me/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://xmlns.com/foaf/0.1/name": [{ "@value": "Frederick Giasson" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/gtin14",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b39" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/handle",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b42" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/identifier",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b45" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/interviewee",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "interviewee" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An agent that is interviewed by another agent.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/contributor" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/interviewer",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "interviewer" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "An agent that interview another agent.", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/contributor" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/isbn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/isbn10",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/isbn" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b48" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/isbn13",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/isbn" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b51" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/issn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/issue",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "issue", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "An issue number", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Issue" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/issuer",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "issuer" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An entity responsible for issuing often informally published documents such as press releases, reports, etc."
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/publisher" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b15" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/lccn",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b54" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/locator",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "locator", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A description (often numeric) that locates an item within a containing document or collection.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/numPages",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "number of pages", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The number of pages contained in a document",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/numVolumes",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "number of volumes", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The number of volumes contained in a collection of documents (usually a series, periodical, etc.).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Collection" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/number",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "number", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A generic item or document number. Not to be confused with issue number.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/oclcnum",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b57" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/organizer",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "organizer", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The organizer of an event; includes conference organizers, but also government agencies or other bodies that are responsible for conducting hearings.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#Event" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/owner",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "owner", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Owner of a document or a collection of documents.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b18" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/pageEnd",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "page end", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Ending page number within a continuous page range.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/pageStart",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "page start", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Starting page number within a continuous page range.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/pages",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "pages", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A string of non-contiguous page spans that locate a Document within a Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the pageStart and pageEnd properties.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/performer",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "performer" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/contributor" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Performance" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/pmid",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b60" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/prefixName",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "prefix name", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "The prefix of a name", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/presentedAt",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "presented at", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates a document to an event; for example, a paper to a conference.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#produced_in" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/Event" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/presents",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "presents", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates an event to associated documents; for example, conference to a paper.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/NET/c4dm/event.owl#product" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Event" }
+    ],
+    "http://www.w3.org/2002/07/owl#inverseOf": [
+      { "@id": "http://purl.org/ontology/bibo/presentedAt" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/producer",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "producer", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Producer of a document or a collection of documents.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b21" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/recipient",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "recipient" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "An agent that receives a communication document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/PersonalCommunicationDocument" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/reproducedIn",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The resource in which another resource is reproduced.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/isPartOf" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/reversedBy",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A legal decision that reverses a ruling.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDecision" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDecision" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/subsequentLegalDecision" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/reviewOf",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "review of", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates a review document to a reviewed thing (resource, item, etc.).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/relation" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Resource" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/section",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "section", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A section number", "@language": "en" }
+    ],
+    "http://www.w3.org/2004/02/skos/core#example": [
+      {
+        "@value": "Di Rado, Alicia. 1995. Trekking through college: Classes explore\r\nmodern society using the world of Star trek. Los Angeles Times, March\r\n15, sec. A, p. 3.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/shortDescription",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/shortTitle",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "short title", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "The abbreviation of a title.", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/sici",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b63" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "status", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The publication status of (typically academic) content.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#editorialNote": [
+      {
+        "@value": "We are not defining, using an enumeration, the range of the bibo:status to the defined list of bibo:DocumentStatus. We won't do it because we want people to be able to define new status if needed by some special usecases. Creating such an enumeration would restrict this to happen.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/DocumentStatus" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/accepted",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "accepted", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Accepted for publication after peer reviewing.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/draft",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "draft", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "Document drafted", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/forthcoming",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "forthcoming", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "Document to be published", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/legal",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "legal", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "Legal document", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/nonPeerReviewed",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "non peer reviewed", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A document that is not peer reviewed", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/peerReviewed",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "peer reviewed", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "The process by which articles are chosen to be included in a refereed journal. An editorial board consisting of experts in the same field as the author review the article and decide if it is authoritative enough for publication.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/published",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "published", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "Published document", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/rejected",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "rejected", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Rejected for publication after peer reviewing.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/status/unpublished",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Thing",
+      "http://purl.org/ontology/bibo/DocumentStatus",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "unpublished", "@language": "en" }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "Unpublished document", "@language": "en" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/subsequentLegalDecision",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A legal decision on appeal that takes action on a case (affirming it, reversing it, etc.).",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/isReferencedBy" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDecision" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/LegalDecision" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/suffixName",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "suffix name", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "The suffix of a name", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/transcriptOf",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "transcript of", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates a document to some transcribed original.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "unstable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/relation" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Resource" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/translationOf",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "translation of", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Relates a translated document to the original document.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/isVersionOf" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/translator",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [{ "@value": "translator" }],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A person who translates written document from one language to another.",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/dc/terms/contributor" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://xmlns.com/foaf/0.1/Agent" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b24" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/upc",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b66" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/uri",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "uri", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "Universal Resource Identifier of a document",
+        "@language": "en"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/identifier" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [{ "@id": "_:b69" }]
+  },
+  {
+    "@id": "http://purl.org/ontology/bibo/volume",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      { "@value": "volume", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@value": "http://purl.org/ontology/bibo/",
+        "@type": "http://www.w3.org/2001/XMLSchema#anyURI"
+      }
+    ],
+    "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
+      { "@value": "stable" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      { "@value": "A volume number", "@language": "en" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#domain": [
+      { "@id": "http://purl.org/ontology/bibo/Document" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subPropertyOf": [
+      { "@id": "http://purl.org/ontology/bibo/locator" }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#range": [
+      { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" }
+    ]
+  },
+  {
+    "@id": "http://schemas.talis.com/2005/address/schema#localityName",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to name the locality of a publisher, an author, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#List",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  {
+    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#Seq",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  { "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#nil" },
+  {
+    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#value",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe the content of a bibo:Document and othr bibliographic resouces.\r\n\r\nWe suggest to use this property instead of the deprecated \"bibo:content\" one.",
+        "@language": "en"
+      }
+    ]
+  },
+  { "@id": "http://www.w3.org/2000/01/rdf-schema#Literal" },
+  {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#Resource",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  { "@id": "http://www.w3.org/2002/07/owl#AnnotationProperty" },
+  { "@id": "http://www.w3.org/2002/07/owl#Class" },
+  { "@id": "http://www.w3.org/2002/07/owl#DatatypeProperty" },
+  { "@id": "http://www.w3.org/2002/07/owl#NamedIndividual" },
+  { "@id": "http://www.w3.org/2002/07/owl#ObjectProperty" },
+  { "@id": "http://www.w3.org/2002/07/owl#Ontology" },
+  { "@id": "http://www.w3.org/2002/07/owl#Restriction" },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#Thing",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  {
+    "@id": "http://www.w3.org/2002/07/owl#deprecated",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#changeNote",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#editorialNote",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#example",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#historyNote",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#note",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://www.w3.org/2004/02/skos/core#scopeNote",
+    "@type": ["http://www.w3.org/2002/07/owl#AnnotationProperty"]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Agent",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe any \"agent\" related to bibliographic items. Such agents can be persons, organizations or groups of any kind.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Document",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Image",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Organization",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Ued to describe an organization related to bibliographic items such as a publishing company, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/Person",
+    "@type": ["http://www.w3.org/2002/07/owl#Class"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to describe a Person related to a bibliographic ite such as an author, an editor, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/based_near",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link an agent, related to bibliographic things, to a place where it is based near: can be a city, a monument, a building, etc.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/depiction",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link an agent with an image that depict it.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/family_name",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "This is the property we choose to use to describe the family name of a person related to a bibliographic resource.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/givenname",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "This is the property we choose to describe the given name of a Person related to a bibliographic resource. This is the first name of a person.",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/homepage",
+    "@type": ["http://www.w3.org/2002/07/owl#ObjectProperty"],
+    "http://www.w3.org/2004/02/skos/core#scopeNote": [
+      {
+        "@value": "Used to link an agent to its homepage (which is a web page accessible using a URL).",
+        "@language": "en"
+      }
+    ]
+  },
+  {
+    "@id": "http://xmlns.com/foaf/0.1/name",
+    "@type": ["http://www.w3.org/2002/07/owl#DatatypeProperty"]
+  }
+]
