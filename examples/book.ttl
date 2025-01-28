@@ -1,0 +1,9 @@
+##
+# <> dc:source <https://web.archive.org/web/20100822204759/http://bibliontology.com/content/book> ;
+#   dc:title "Book" .
+
+<urn:isbn:23983498> a bibo:Book ;
+    dc:creator <http://examples.net/contributors/2> ;
+    dc:title "Book Title"@en ;
+    dc:date "2000" ;
+    dc:publisher <http://ex.net/agents/1> .

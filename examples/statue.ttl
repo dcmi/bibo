@@ -1,0 +1,7 @@
+##
+# <> dc:source <https://web.archive.org/web/20100217082732/http://bibliontology.com/content/statue> ;
+#   dc:title "Statue" ;
+#   dc:comment "This is very preliminary work done by Dan McCreary on RDF tags for state bills and statutes and not yet validated by anyone else." .
+
+<http://examples.net/statute/1> a bibo:Statute ;
+. # ...put the code here

@@ -1,0 +1,21 @@
+##
+# <> dc:source <https://web.archive.org/web/20100719231803/http://bibliontology.com/content/conference-paper> ;
+#   dc:title "Conference Paper" ;
+#   dc:comment "The following is a paper presented at a conference and then published in a proceedings." .
+
+<http://ex.net/x1> a bibo:Article ;
+    dc:creator <http://examples.net/contributors/1> ;
+    dc:title "Conference Paper" ;
+    bibo:presentedAt <http://ex.net/conference> ;
+    bibo:reproducedIn <http://ex.net/x2> .
+
+
+<http://ex.net/conference> a bibo:Conference ;
+    bibo:organizer <http://ex.net> ;
+    event:place <http://dbpedia.org/resource/> ;
+    event:time [ time:Interval [ timeline:beginsAtDateTime "2007-03-01" ; timeline:endsAtDateTime "2007-03-13"] ] .
+
+<http://ex.net/x2> a bibo:Proceedings ;
+    dc:title "Proceedings of the ABC Conference"@en ;
+    dc:date "2000" ;
+    dc:publisher <http://ex.net/z1> .

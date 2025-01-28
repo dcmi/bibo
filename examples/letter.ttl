@@ -1,0 +1,8 @@
+##
+# <> dc:source <https://web.archive.org/web/20100217082722/http://bibliontology.com/content/letter> ;
+#   dc:title "Letter" .
+
+<http://examples.net/letter> a bibo:Letter ;
+    dc:date "2000-10-12" ;
+    dc:creator <http://examples.net/contributors/1> ;
+    bibo:recipient <http://examples.net/people/alice/me/> .

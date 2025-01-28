@@ -1,0 +1,15 @@
+##
+# <> dc:source <https://web.archive.org/web/20100823033641/http://bibliontology.com/content/thesis> ;
+#   dc:title "Thesis" .
+
+<http://examples.net/dissertation> a bibo:Thesis ;
+    dc:date "1998-01-01" ;
+    dc:title "Dissertation Title"@en ;
+    bibo:issuer <http://examples.net/things/6> ;
+    bibo:degree bibo_degrees:phd ;
+    dc:creator <http://examples.net/contributors/1> .
+
+
+<http://examples.net/things/6> a foaf:Organization ;
+    foaf:name "National University" ;
+    address:localityName "Singapore" .

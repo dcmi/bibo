@@ -1,0 +1,24 @@
+##
+# <> dc:source <https://web.archive.org/web/20100217082200/http://bibliontology.com/content/contributors> ;
+#   dc:title "Contributors" ;
+#   dc:comment "We use FOAF to model agents." .
+@prefix address: <http://schemas.talis.com/2005/address/schema#>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+
+<http://examples.net/contributors/1>
+    a foaf:Person ;
+    foaf:givenname "Jane" ;
+    foaf:family_name "Doe" .
+
+<http://examples.net/contributors/2> a foaf:Person .
+
+<http://examples.net/contributors/3> a foaf:Person .
+
+<http://examples.net/contributors/4> a foaf:Organization ;
+    foaf:name "ABC Publishers" ;
+    address:localityName "New York" .
+
+<http://examples.net/contributors/5> a foaf:Organization ;
+    foaf:name "XYZ Archive, National University".
