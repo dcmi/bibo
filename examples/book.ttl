@@ -1,3 +1,6 @@
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
 ##
 # <> dc:source <https://web.archive.org/web/20100822204759/http://bibliontology.com/content/book> ;
 #   dc:title "Book" .

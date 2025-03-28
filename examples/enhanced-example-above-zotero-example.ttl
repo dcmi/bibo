@@ -1,0 +1,99 @@
+##
+# Enhanced example of the above Zotero example
+prefix z: <http://www.zotero.org/namespaces/export#>
+prefix link: <http://purl.org/rss/1.0/modules/link/>
+prefix vcard: <http://nwalsh.com/rdf/vCard#>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix prism: <http://prismstandard.org/namespaces/1.2/basic/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix bib: <http://purl.org/net/biblio#>
+prefix NC: <http://home.netscape.com/NC-rdf#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+<http://www.zotero.org/services/urn/isbn/026256212X> a bibo:Book ;
+  dcterms:title "Spinning the Semantic Web: Bringing the World Wide Web to Its Full Potential" ;
+  bibo:shortTitle "Spinning the Semantic Web" ;
+  bibo:editionName "New Ed" ;
+  dcterms:date "2005-03-01" ;
+  bibo:isbn "026256212X" ;
+  dcterms:relation <http://www.amazon.com/dp/026256212X> ,
+    <http://www.alibris.com/search/search.cfm?wtit=Spinning%20the%20Semantic%20Web> ;
+  bibo:editor <http://www.zotero.org/services/urn/isbn/026256212X/contributor/1> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/2> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/3> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/4> ;
+  dcterms:contributor <http://www.zotero.org/services/urn/isbn/026256212X/contributor/5> ;
+  dcterms:publisher <http://www.zotero.org/services/urn/isbn/026256212X/contributor/6> ;
+  bibo:contributorList [ a rdf:Seq ;
+      rdf:_1 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/1> ;
+      rdf:_2 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/2> ;
+      rdf:_3 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/3> ;
+      rdf:_4 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/4> ;
+      rdf:_5 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/5> ;
+      rdf:_6 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/6> ] ;
+  dcterms:hasPart <http://www.zotero.org/services/urn/isbn/026256212X_4> .
+
+<http://www.amazon.com/dp/026256212X> a bibo:Document ;
+  bibo:uri "http://www.amazon.com/dp/026256212X" .
+
+<http://www.alibris.com/search/search.cfm?wtit=Spinning%20the%20Semantic%20Web> a bibo:Document ;
+  bibo:uri "http://www.alibris.com/search/search.cfm?wtit=Spinning%20the%20Semantic%20Web" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/6> a foaf:Organization ;
+  foaf:name "The MIT Press" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/1> a foaf:Person ;
+  foaf:surname "Fensel" ;
+  foaf:givenname "Dieter" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/2> a foaf:Person ;
+  foaf:surname "Hendler" ;
+  foaf:givenname "James A." .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/3> a foaf:Person ;
+  foaf:surname "Lieberman" ;
+  foaf:givenname "Henry" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/4> a foaf:Person ;
+  foaf:surname "Wahlster" ;
+  foaf:givenname "Wolfgang" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/5> a foaf:Person ;
+  foaf:surname "Berners-Lee" ;
+  foaf:givenname "Tim" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X_4> a bibo:Part ;
+  dcterms:title "Ontologies and Schema Languages on the Web" ;
+  bibo:startPage "95" ;
+  bibo:endPage "139" ;
+  bibo:chapter "4" ;
+  dcterms:isPartOf <http://www.zotero.org/services/urn/isbn/026256212X> ;
+  bibo:editor <http://www.zotero.org/services/urn/isbn/026256212X/contributor/6> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/7> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/1> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/8> ,
+    <http://www.zotero.org/services/urn/isbn/026256212X/contributor/9> ;
+  bibo:contributorList [ a rdf:Seq ;
+      rdf:_1 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/6> ;
+      rdf:_2 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/7> ;
+      rdf:_3 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/1> ;
+      rdf:_4 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/8> ;
+      rdf:_5 <http://www.zotero.org/services/urn/isbn/026256212X/contributor/9> ] .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/6> a foaf:Person ;
+  foaf:surname "Klein" ;
+  foaf:givenname "Michel" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/7> a foaf:Person ;
+  foaf:surname "Broekstra" ;
+  foaf:givenname "Jeen" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/8> a foaf:Person ;
+  foaf:surname "van Hermelen" ;
+  foaf:givenname "Frank" .
+
+<http://www.zotero.org/services/urn/isbn/026256212X/contributor/9> a foaf:Person ;
+  foaf:surname "Horrocks" ;
+  foaf:givenname "Ian" .

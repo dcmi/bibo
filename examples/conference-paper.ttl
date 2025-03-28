@@ -1,14 +1,19 @@
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix dc: <http://purl.org/dc/terms/>
+prefix event: <http://purl.org/NET/c4dm/event.owl#>
+prefix time: <http://www.w3.org/2006/time#>
+prefix timeline: <http://purl.org/NET/c4dm/timeline.owl#>
+
 ##
-# <> dc:source <https://web.archive.org/web/20100719231803/http://bibliontology.com/content/conference-paper> ;
-#   dc:title "Conference Paper" ;
-#   dc:comment "The following is a paper presented at a conference and then published in a proceedings." .
+# Conference Paper
+#  The following is a paper presented at a conference and then published in a proceedings.
 
 <http://ex.net/x1> a bibo:Article ;
     dc:creator <http://examples.net/contributors/1> ;
     dc:title "Conference Paper" ;
     bibo:presentedAt <http://ex.net/conference> ;
     bibo:reproducedIn <http://ex.net/x2> .
-
 
 <http://ex.net/conference> a bibo:Conference ;
     bibo:organizer <http://ex.net> ;
