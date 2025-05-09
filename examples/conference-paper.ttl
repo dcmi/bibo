@@ -5,10 +5,6 @@ prefix event: <http://purl.org/NET/c4dm/event.owl#>
 prefix time: <http://www.w3.org/2006/time#>
 prefix timeline: <http://purl.org/NET/c4dm/timeline.owl#>
 
-##
-# Conference Paper
-#  The following is a paper presented at a conference and then published in a proceedings.
-
 <http://ex.net/x1> a bibo:Article ;
     dc:creator <http://examples.net/contributors/1> ;
     dc:title "Conference Paper" ;

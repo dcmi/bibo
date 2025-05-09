@@ -1,5 +1,3 @@
-##
-# Thesis
 prefix address: <http://schemas.talis.com/2005/address/schema#>
 prefix bibo: <http://purl.org/ontology/bibo/>
 prefix dc: <http://purl.org/dc/elements/1.1/>

@@ -1,7 +1,3 @@
-##
-# <> dc:source <https://web.archive.org/web/20100217082200/http://bibliontology.com/content/contributors> ;
-#   dc:title "Contributors" ;
-#   dc:comment "We use FOAF to model agents." .
 prefix address: <http://schemas.talis.com/2005/address/schema#>
 prefix foaf: <http://xmlns.com/foaf/0.1/>
 prefix bibo: <http://purl.org/ontology/bibo/>

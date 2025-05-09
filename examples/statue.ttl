@@ -1,6 +1,3 @@
-##
-# Statue
-# This is very preliminary work done by Dan McCreary on RDF tags for state bills and statutes and not yet validated by anyone else.
 prefix bibo: <http://purl.org/ontology/bibo/>
 
 <http://examples.net/statute/1> a bibo:Statute ;

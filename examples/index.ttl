@@ -2,57 +2,59 @@ prefix bibo: <http://purl.org/ontology/bibo/>
 prefix dc: <http://purl.org/dc/terms/>
 
 <article.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100822204602/http://bibliontology.com/content/article> ;
-  dc:comment "First, we have a standard journal article. We link the article directly to the journal, though a more detailed representation could also model the issue. Also, we represent the ordered author list using an rdf:List" .
+  dc:title "Article"@en ;
+  dc:source <https://web.archive.org/web/20100822204602/http://bibliontology.com/content/article> .
 
 <book.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100822204759/http://bibliontology.com/content/book> ;
-  dc:title "Book" .
+  dc:title "Book"@en ;
+  dc:source <https://web.archive.org/web/20100822204759/http://bibliontology.com/content/book> .
 
 <complex-series-proceeding-article-use-case.ttl> a bibo:Document ;
+  dc:title "A Complex series + proceeding + article use case"@en ;
   dc:source <https://web.archive.org/web/20100217082711/http://bibliontology.com/content/complex-series-proceeding-article-use-case> .
 
 <conference-paper.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100719231803/http://bibliontology.com/content/conference-paper> ;
-  dc:title "Conference Paper" ;
-  dc:comment "The following is a paper presented at a conference and then published in a proceedings." .
+  dc:title "Conference Paper"@en ;
+  dc:comment "The following is a paper presented at a conference and then published in a proceedings."@en ;
+  dc:source <https://web.archive.org/web/20100719231803/http://bibliontology.com/content/conference-paper> .
 
 <conference-presentation.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100217082717/http://bibliontology.com/content/conference-presentation> ;
-  dc:comment "Conference Presentation" .
+  dc:title "Conference Presentation"@en ;
+  dc:source <https://web.archive.org/web/20100217082717/http://bibliontology.com/content/conference-presentation> .
 
 <contributors.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100217082200/http://bibliontology.com/content/contributors> ;
-  dc:title "Contributors" ;
-  dc:comment "We use FOAF to model agents." .
+  dc:title "Contributors"@en ;
+  dc:comment "We use FOAF to model agents."@en ;
+  dc:source <https://web.archive.org/web/20100217082200/http://bibliontology.com/content/contributors> .
 
 <enhanced-example-above-zotero-example.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20101120023544/http://bibliontology.com/content/enhanced-example-above-zotero-example> ;
-  dc:comment "Enhanced example of the above Zotero example" .
+  dc:title "Enhanced example of the above Zotero example"@en ;
+  dc:comment "Enhanced example of the above Zotero example"@en ;
+  dc:source <https://web.archive.org/web/20101120023544/http://bibliontology.com/content/enhanced-example-above-zotero-example> .
 
 <legal-case.ttl> a bibo:Document ;
   dc:source <https://web.archive.org/web/20100717151653/http://bibliontology.com/content/legal-case> ;
-  dc:title "Legal Case" ;
-  dc:comment "This example describes both the cited decision, as well as relations to subsequent decision history." .
+  dc:title "Legal Case"@en ;
+  dc:comment "This example describes both the cited decision, as well as relations to subsequent decision history."@en .
 
 <letter.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100217082722/http://bibliontology.com/content/letter> ;
-  dc:title "Letter" .
+  dc:title "Letter"@en ;
+  dc:source <https://web.archive.org/web/20100217082722/http://bibliontology.com/content/letter> .
 
 <manuscript.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100217082210/http://bibliontology.com/content/manuscript> ;
-  dc:title "Manuscript" ;
-  dc:comment "An unpublished document held in an archive." .
+  dc:title "Manuscript"@en ;
+  dc:comment "An unpublished document held in an archive."@en ;
+  dc:source <https://web.archive.org/web/20100217082210/http://bibliontology.com/content/manuscript> .
 
 <rejected-article-submitted-conference.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100710052216/http://bibliontology.com/content/rejected-article-submitted-conference> ;
-  dc:title "Rejected article submitted to a conference" .
+  dc:title "Rejected article submitted to a conference"@en ;
+  dc:source <https://web.archive.org/web/20100710052216/http://bibliontology.com/content/rejected-article-submitted-conference> .
 
 <statue.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100217082732/http://bibliontology.com/content/statue> ;
-  dc:title "Statue" ;
-  dc:comment "This is very preliminary work done by Dan McCreary on RDF tags for state bills and statutes and not yet validated by anyone else." .
+  dc:title "Statue"@en ;
+  dc:comment "This is very preliminary work done by Dan McCreary on RDF tags for state bills and statutes and not yet validated by anyone else."@en ;
+  dc:source <https://web.archive.org/web/20100217082732/http://bibliontology.com/content/statue> .
 
 <thesis.ttl> a bibo:Document ;
-  dc:source <https://web.archive.org/web/20100823033641/http://bibliontology.com/content/thesis> ;
-  dc:title "Thesis" .
+  dc:title "Thesis"@en ;
+  dc:source <https://web.archive.org/web/20100823033641/http://bibliontology.com/content/thesis> .

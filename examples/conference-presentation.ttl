@@ -1,5 +1,3 @@
-##
-# Conference Presentation
 prefix bibo: <http://purl.org/ontology/bibo/>
 prefix cc: <http://creativecommons.org/ns#>
 prefix dc: <http://purl.org/dc/terms/>

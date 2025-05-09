@@ -1,6 +1,3 @@
-##
-# Manuscript
-# An unpublished document held in an archive.
 prefix address: <http://schemas.talis.com/2005/address/schema#>
 prefix bibo: <http://purl.org/ontology/bibo/>
 prefix dcterms: <http://purl.org/dc/terms/>

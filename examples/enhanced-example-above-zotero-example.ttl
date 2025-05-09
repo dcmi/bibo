@@ -1,5 +1,3 @@
-##
-# Enhanced example of the above Zotero example
 prefix z: <http://www.zotero.org/namespaces/export#>
 prefix link: <http://purl.org/rss/1.0/modules/link/>
 prefix vcard: <http://nwalsh.com/rdf/vCard#>
