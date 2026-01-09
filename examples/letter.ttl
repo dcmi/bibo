@@ -1,0 +1,9 @@
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+<http://examples.net/letter> a bibo:Letter ;
+    dcterms:date "2000-10-12" ;
+    dcterms:creator <http://examples.net/contributors/1> ;
+    bibo:recipient <http://examples.net/people/alice/me/> .

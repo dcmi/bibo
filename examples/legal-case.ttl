@@ -1,0 +1,17 @@
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+
+<http://examples.net/case/1> a bibo:LegalDecision ;
+    dcterms:issued "2006-01-01" ;
+    bibo:argued "2005-10-12" ;
+    dcterms:title "Doe v. Smith"@en ;
+    bibo:number "123223" ;
+    bibo:court [ foaf:name "Some Court" ] ;
+    bibo:affirmedBy <http://examples.net/case/2> ;
+    bibo:affirmedBy <http://examples.net/case/3> ;
+    dcterms:isPartOf <http://examples.net/periodicals/1> .
+
+<http://examples.net/periodicals/1> a bibo:CourtReporter ;
+    dcterms:title "Court Reporter Title"@en ;
+    bibo:shortTitle "CRT"@en .

@@ -1,0 +1,20 @@
+prefix address: <http://schemas.talis.com/2005/address/schema#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+<http://examples.net/manuscript> a bibo:Manuscript ;
+    dcterms:title "Manuscript Title"@en ;
+    dcterms:isPartOf <http://examples.net/collections/1> ;
+    bibo:locator "Box 12, Folder 3" ;
+    dcterms:creator <http://examples.net/contributors/1> .
+
+<http://examples.net/collections/1> a bibo:Collection ;
+    dcterms:title "Manuscript Collection Title"@en ;
+    bibo:owner <http://examples.net/contributors/5> .
+
+<http://examples.net/places/1> a foaf:Organization ;
+    foaf:name "XYZ Archive, National University" ;
+    address:localityName "London" ;
+    foaf:based_near <http://dbpedia.org/resource/London> .
