@@ -50,7 +50,7 @@ prefix dc: <http://purl.org/dc/terms/>
   dc:title "Rejected article submitted to a conference"@en ;
   dc:source <https://web.archive.org/web/20100710052216/http://bibliontology.com/content/rejected-article-submitted-conference> .
 
-<statue.ttl> a bibo:Document ;
+<statute.ttl> a bibo:Document ;
   dc:title "Statue"@en ;
   dc:comment "This is very preliminary work done by Dan McCreary on RDF tags for state bills and statutes and not yet validated by anyone else."@en ;
   dc:source <https://web.archive.org/web/20100217082732/http://bibliontology.com/content/statue> .
