@@ -101,7 +101,7 @@ dc:subject
 
 bibo:affirmedBy
   a owl:ObjectProperty ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A legal decision that affirms a ruling."@en ;
   rdfs:range bibo:LegalDecision ;
   rdfs:domain bibo:LegalDecision ;
@@ -110,7 +110,7 @@ bibo:affirmedBy
 bibo:annotates
   a owl:ObjectProperty ;
   rdfs:label "annotates"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Critical or explanatory note for a Document."@en ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf dc:relation ;
@@ -120,7 +120,7 @@ bibo:annotates
 bibo:authorList
   a owl:ObjectProperty ;
   rdfs:label "list of authors"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "An ordered list of authors. Normally, this list is seen as a priority list that order authors by importance."@en ;
   rdfs:domain bibo:Document ;
@@ -136,7 +136,7 @@ bibo:authorList
 bibo:citedBy
   a owl:ObjectProperty ;
   rdfs:label "cited by"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment """Relates a document to another document that cites the
 first document."""@en ;
   vs:term_status "unstable" ;
@@ -147,7 +147,7 @@ first document."""@en ;
 bibo:cites
   a owl:ObjectProperty ;
   rdfs:label "cites"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment """Relates a document to another document that is cited
 by the first document as reference, comment, review, quotation or for
@@ -159,7 +159,7 @@ another purpose."""@en ;
 bibo:contributorList
   a owl:ObjectProperty ;
   rdfs:label "list of contributors"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "An ordered list of contributors. Normally, this list is seen as a priority list that order contributors by importance."@en ;
   rdfs:domain bibo:Document ;
@@ -174,7 +174,7 @@ bibo:contributorList
 bibo:court
   a owl:ObjectProperty ;
   rdfs:label "court"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A court associated with a legal document; for example, that which issues a decision."@en ;
   vs:term_status "unstable" ;
   rdfs:domain bibo:LegalDocument ;
@@ -183,7 +183,7 @@ bibo:court
 bibo:degree
   a owl:ObjectProperty ;
   rdfs:label "degree"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "The thesis degree."@en ;
   skos:editorialNote "We are not defining, using an enumeration, the range of the bibo:degree to the defined list of bibo:ThesisDegree. We won't do it because we want people to be able to define new degress if needed by some special usecases. Creating such an enumeration would restrict this to happen."@en ;
@@ -193,7 +193,7 @@ bibo:degree
 bibo:director
   a owl:ObjectProperty ;
   rdfs:label "director" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A Film director."@en ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf dc:contributor ;
@@ -203,7 +203,7 @@ bibo:director
 bibo:distributor
   a owl:ObjectProperty ;
   rdfs:label "distributor"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Distributor of a document or a collection of documents."@en ;
   vs:term_status "stable" ;
   rdfs:range foaf:Agent ;
@@ -218,7 +218,7 @@ bibo:distributor
 bibo:editor
   a owl:ObjectProperty ;
   rdfs:label "editor" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A person having managerial and sometimes policy-making responsibility for the editorial part of a publishing firm or of a newspaper, magazine, or other publication."@en ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf dc:contributor ;
@@ -234,7 +234,7 @@ bibo:editor
 bibo:editorList
   a owl:ObjectProperty ;
   rdfs:label "list of editors"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An ordered list of editors. Normally, this list is seen as a priority list that order editors by importance."@en ;
   vs:term_status "stable" ;
   rdfs:domain bibo:Document ;
@@ -250,7 +250,7 @@ bibo:editorList
 bibo:interviewee
   a owl:ObjectProperty ;
   rdfs:label "interviewee" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "An agent that is interviewed by another agent."@en ;
   rdfs:subPropertyOf dc:contributor ;
@@ -260,7 +260,7 @@ bibo:interviewee
 bibo:interviewer
   a owl:ObjectProperty ;
   rdfs:label "interviewer" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An agent that interview another agent."@en ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf dc:contributor ;
@@ -270,7 +270,7 @@ bibo:interviewer
 bibo:issuer
   a owl:ObjectProperty ;
   rdfs:label "issuer" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An entity responsible for issuing often informally published documents such as press releases, reports, etc." ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf dc:publisher ;
@@ -286,7 +286,7 @@ bibo:issuer
 bibo:organizer
   a owl:ObjectProperty ;
   rdfs:label "organizer"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "The organizer of an event; includes conference organizers, but also government agencies or other bodies that are responsible for conducting hearings."@en ;
   rdfs:domain <http://purl.org/NET/c4dm/event.owl#Event> ;
@@ -295,7 +295,7 @@ bibo:organizer
 bibo:owner
   a owl:ObjectProperty ;
   rdfs:label "owner"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "Owner of a document or a collection of documents."@en ;
   rdfs:range foaf:Agent ;
@@ -310,7 +310,7 @@ bibo:owner
 bibo:performer
   a owl:ObjectProperty ;
   rdfs:label "performer" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf dc:contributor ;
   rdfs:domain bibo:Performance ;
@@ -319,7 +319,7 @@ bibo:performer
 bibo:presentedAt
   a owl:ObjectProperty ;
   rdfs:label "presented at"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "Relates a document to an event; for example, a paper to a conference."@en ;
   rdfs:subPropertyOf <http://purl.org/NET/c4dm/event.owl#produced_in> ;
@@ -329,7 +329,7 @@ bibo:presentedAt
 bibo:presents
   a owl:ObjectProperty ;
   rdfs:label "presents"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Relates an event to associated documents; for example, conference to a paper."@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf <http://purl.org/NET/c4dm/event.owl#product> ;
@@ -340,7 +340,7 @@ bibo:presents
 bibo:producer
   a owl:ObjectProperty ;
   rdfs:label "producer"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Producer of a document or a collection of documents."@en ;
   vs:term_status "stable" ;
   rdfs:range foaf:Agent ;
@@ -355,7 +355,7 @@ bibo:producer
 bibo:recipient
   a owl:ObjectProperty ;
   rdfs:label "recipient" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An agent that receives a communication document."@en ;
   vs:term_status "stable" ;
   rdfs:domain bibo:PersonalCommunicationDocument ;
@@ -363,7 +363,7 @@ bibo:recipient
 
 bibo:reproducedIn
   a owl:ObjectProperty ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "The resource in which another resource is reproduced."@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf dc:isPartOf ;
@@ -372,7 +372,7 @@ bibo:reproducedIn
 
 bibo:reversedBy
   a owl:ObjectProperty ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A legal decision that reverses a ruling."@en ;
   rdfs:range bibo:LegalDecision ;
   rdfs:domain bibo:LegalDecision ;
@@ -381,7 +381,7 @@ bibo:reversedBy
 bibo:reviewOf
   a owl:ObjectProperty ;
   rdfs:label "review of"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Relates a review document to a reviewed thing (resource, item, etc.)."@en ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf dc:relation ;
@@ -391,7 +391,7 @@ bibo:reviewOf
 bibo:status
   a owl:ObjectProperty ;
   rdfs:label "status"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "The publication status of (typically academic) content."@en ;
   skos:editorialNote "We are not defining, using an enumeration, the range of the bibo:status to the defined list of bibo:DocumentStatus. We won't do it because we want people to be able to define new status if needed by some special usecases. Creating such an enumeration would restrict this to happen."@en ;
@@ -400,7 +400,7 @@ bibo:status
 
 bibo:subsequentLegalDecision
   a owl:ObjectProperty ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A legal decision on appeal that takes action on a case (affirming it, reversing it, etc.)."@en ;
   rdfs:subPropertyOf dc:isReferencedBy ;
   rdfs:domain bibo:LegalDecision ;
@@ -409,7 +409,7 @@ bibo:subsequentLegalDecision
 bibo:transcriptOf
   a owl:ObjectProperty ;
   rdfs:label "transcript of"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Relates a document to some transcribed original."@en ;
   vs:term_status "unstable" ;
   rdfs:subPropertyOf dc:relation ;
@@ -419,7 +419,7 @@ bibo:transcriptOf
 bibo:translationOf
   a owl:ObjectProperty ;
   rdfs:label "translation of"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "Relates a translated document to the original document."@en ;
   rdfs:subPropertyOf dc:isVersionOf ;
@@ -429,7 +429,7 @@ bibo:translationOf
 bibo:translator
   a owl:ObjectProperty ;
   rdfs:label "translator" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A person who translates written document from one language to another."@en ;
   rdfs:subPropertyOf dc:contributor ;
@@ -517,7 +517,7 @@ dc:issued
 bibo:abstract
   a owl:DatatypeProperty ;
   rdfs:label "abstract" ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A summary of the resource." ;
   rdfs:range rdfs:Literal ;
@@ -526,7 +526,7 @@ bibo:abstract
 bibo:argued
   a owl:DatatypeProperty ;
   rdfs:label "date argued"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "The date on which a legal case is argued before a court. Date is of format xsd:date"@en ;
   vs:term_status "unstable" ;
   rdfs:domain bibo:LegalDocument ;
@@ -534,6 +534,7 @@ bibo:argued
 
 bibo:asin
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -547,8 +548,8 @@ bibo:asin
 bibo:chapter
   a owl:DatatypeProperty ;
   rdfs:label "chapter"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
-  rdfs:comment "An chapter number"@en ;
+  rdfs:isDefinedBy bibo: ;
+  rdfs:comment "A chapter number"@en ;
   vs:term_status "unstable" ;
   rdfs:domain bibo:BookSection ;
   rdfs:subPropertyOf bibo:locator ;
@@ -556,6 +557,7 @@ bibo:chapter
 
 bibo:coden
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -569,7 +571,7 @@ bibo:coden
 bibo:content
   a owl:DatatypeProperty ;
   rdfs:label "content"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   owl:deprecated true ;
   skos:historyNote "bibo:content has been deprecated; we recommend to use \"rdf:value\" for this purpose. Here is the rational behind this choice: http://www.w3.org/TR/2004/REC-rdf-primer-20040210/#rdfvalue"@en ;
   vs:term_status "unstable" ;
@@ -579,6 +581,7 @@ bibo:content
 
 bibo:doi
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -591,6 +594,7 @@ bibo:doi
 
 bibo:eanucc13
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -604,7 +608,7 @@ bibo:eanucc13
 bibo:edition
   a owl:DatatypeProperty ;
   rdfs:label "edition"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "The name defining a special edition of a document. Normally its a literal value composed of a version number and words."@en ;
   rdfs:domain bibo:Document ;
@@ -612,12 +616,14 @@ bibo:edition
 
 bibo:eissn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:domain bibo:Collection ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal .
 
 bibo:gtin14
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -630,6 +636,7 @@ bibo:gtin14
 
 bibo:handle
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -642,6 +649,7 @@ bibo:handle
 
 bibo:identifier
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
     a owl:Class ;
@@ -653,10 +661,12 @@ bibo:identifier
 
 bibo:isbn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier .
 
 bibo:isbn10
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:isbn ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -669,6 +679,7 @@ bibo:isbn10
 
 bibo:isbn13
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:isbn ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -681,6 +692,7 @@ bibo:isbn13
 
 bibo:issn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:domain bibo:Collection ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal .
@@ -688,7 +700,7 @@ bibo:issn
 bibo:issue
   a owl:DatatypeProperty ;
   rdfs:label "issue"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An issue number"@en ;
   vs:term_status "stable" ;
   rdfs:domain bibo:Issue ;
@@ -697,6 +709,7 @@ bibo:issue
 
 bibo:lccn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -710,7 +723,7 @@ bibo:lccn
 bibo:locator
   a owl:DatatypeProperty ;
   rdfs:label "locator"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A description (often numeric) that locates an item within a containing document or collection."@en ;
   vs:term_status "stable" ;
   rdfs:domain bibo:Document ;
@@ -719,7 +732,7 @@ bibo:locator
 bibo:numPages
   a owl:DatatypeProperty ;
   rdfs:label "number of pages"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "The number of pages contained in a document"@en ;
   rdfs:domain bibo:Document ;
@@ -728,7 +741,7 @@ bibo:numPages
 bibo:numVolumes
   a owl:DatatypeProperty ;
   rdfs:label "number of volumes"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "The number of volumes contained in a collection of documents (usually a series, periodical, etc.)."@en ;
   vs:term_status "stable" ;
   rdfs:domain bibo:Collection ;
@@ -737,7 +750,7 @@ bibo:numVolumes
 bibo:number
   a owl:DatatypeProperty ;
   rdfs:label "number"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A generic item or document number. Not to be confused with issue number."@en ;
   rdfs:domain bibo:Document ;
@@ -745,6 +758,7 @@ bibo:number
 
 bibo:oclcnum
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -758,7 +772,7 @@ bibo:oclcnum
 bibo:pageEnd
   a owl:DatatypeProperty ;
   rdfs:label "page end"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "Ending page number within a continuous page range."@en ;
   rdfs:domain bibo:Document ;
@@ -768,7 +782,7 @@ bibo:pageEnd
 bibo:pageStart
   a owl:DatatypeProperty ;
   rdfs:label "page start"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "Starting page number within a continuous page range."@en ;
   rdfs:domain bibo:Document ;
@@ -778,7 +792,7 @@ bibo:pageStart
 bibo:pages
   a owl:DatatypeProperty ;
   rdfs:label "pages"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A string of non-contiguous page spans that locate a Document within a Collection. Example: 23-25, 34, 54-56. For continuous page ranges, use the pageStart and pageEnd properties."@en ;
   rdfs:domain bibo:Document ;
@@ -787,6 +801,7 @@ bibo:pages
 
 bibo:pmid
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -800,7 +815,7 @@ bibo:pmid
 bibo:prefixName
   a owl:DatatypeProperty ;
   rdfs:label "prefix name"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "The prefix of a name"@en ;
   vs:term_status "stable" ;
   rdfs:range rdfs:Literal ;
@@ -809,7 +824,7 @@ bibo:prefixName
 bibo:section
   a owl:DatatypeProperty ;
   rdfs:label "section"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A section number"@en ;
   skos:example """Di Rado, Alicia. 1995. Trekking through college: Classes explore
@@ -821,13 +836,14 @@ modern society using the world of Star trek. Los Angeles Times, March
 
 bibo:shortDescription
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:domain bibo:Document ;
   rdfs:range rdfs:Literal .
 
 bibo:shortTitle
   a owl:DatatypeProperty ;
   rdfs:label "short title"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "The abbreviation of a title."@en ;
   rdfs:domain bibo:Document ;
@@ -835,6 +851,7 @@ bibo:shortTitle
 
 bibo:sici
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -848,7 +865,7 @@ bibo:sici
 bibo:suffixName
   a owl:DatatypeProperty ;
   rdfs:label "suffix name"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "The suffix of a name"@en ;
   rdfs:range rdfs:Literal ;
@@ -856,6 +873,7 @@ bibo:suffixName
 
 bibo:upc
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -869,7 +887,7 @@ bibo:upc
 bibo:uri
   a owl:DatatypeProperty ;
   rdfs:label "uri"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Universal Resource Identifier of a document"@en ;
   vs:term_status "stable" ;
   rdfs:subPropertyOf bibo:identifier ;
@@ -885,7 +903,7 @@ bibo:uri
 bibo:volume
   a owl:DatatypeProperty ;
   rdfs:label "volume"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A volume number"@en ;
   rdfs:domain bibo:Document ;
@@ -922,7 +940,7 @@ bibo:AcademicArticle
   a owl:Class ;
   rdfs:label "Academic Article"@en ;
   rdfs:subClassOf bibo:Article ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A scholarly academic article, typically published in a journal."@en .
 
@@ -930,7 +948,7 @@ bibo:Article
   a owl:Class ;
   rdfs:label "Article"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A written composition in prose, usually nonfiction, on a specific topic, forming an independent part of a book or other publication, as a newspaper or magazine."@en .
 
@@ -938,7 +956,7 @@ bibo:AudioDocument
   a owl:Class ;
   rdfs:label "audio document"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "An audio document; aka record."@en .
 
@@ -946,7 +964,7 @@ bibo:AudioVisualDocument
   a owl:Class ;
   rdfs:label "audio-visual document"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An audio-visual document; film, video, and so forth."@en ;
   vs:term_status "stable" .
 
@@ -954,7 +972,7 @@ bibo:Bill
   a owl:Class ;
   rdfs:label "Bill"@en ;
   rdfs:subClassOf bibo:Legislation ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "Draft legislation presented for discussion to a legal body."@en ;
   vs:term_status "stable" .
 
@@ -962,7 +980,7 @@ bibo:Book
   a owl:Class ;
   rdfs:label "Book"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A written or printed work of fiction or nonfiction, usually on sheets of paper fastened or bound together within covers."@en .
 
@@ -970,7 +988,7 @@ bibo:BookSection
   a owl:Class ;
   rdfs:label "Book Section"@en ;
   rdfs:subClassOf bibo:DocumentPart ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A section of a book."@en .
 
@@ -978,7 +996,7 @@ bibo:Brief
   a owl:Class ;
   rdfs:label "Brief"@en ;
   rdfs:subClassOf bibo:LegalCaseDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A written argument submitted to a court."@en ;
   vs:term_status "unstable" .
 
@@ -986,7 +1004,7 @@ bibo:Chapter
   a owl:Class ;
   rdfs:label "Chapter"@en ;
   rdfs:subClassOf bibo:BookSection ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A chapter of a book."@en ;
   vs:term_status "unstable" .
 
@@ -1002,7 +1020,7 @@ bibo:Code
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Legislation
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A collection of statutes."@en .
 
@@ -1018,7 +1036,7 @@ bibo:CollectedDocument
     owl:onProperty dc:hasPart ;
     owl:minCardinality "1"^^xsd:nonNegativeInteger
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A document that simultaneously contains other documents."@en .
 
@@ -1036,7 +1054,7 @@ bibo:Collection
      )
     ]
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A collection of Documents or Collections"@en ;
   vs:term_status "stable" .
 
@@ -1044,7 +1062,7 @@ bibo:Conference
   a owl:Class ;
   rdfs:label "Conference"@en ;
   rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A meeting for consultation or discussion."@en .
 
@@ -1060,7 +1078,7 @@ bibo:CourtReporter
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:LegalDocument
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A collection of legal cases."@en ;
   vs:term_status "stable" .
 
@@ -1068,7 +1086,7 @@ bibo:Document
   a owl:Class ;
   rdfs:label "Document"@en ;
   owl:equivalentClass foaf:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A document (noun) is a bounded physical representation of body of information designed with the capacity (and usually intent) to communicate. A document may manifest symbolic, diagrammatic or sensory-representational information."@en ;
   vs:term_status "stable" .
 
@@ -1080,14 +1098,14 @@ bibo:DocumentPart
     owl:onProperty dc:isPartOf ;
     owl:maxCardinality "1"^^xsd:nonNegativeInteger
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "a distinct part of a larger document or collected document."@en ;
   vs:term_status "unstable" .
 
 bibo:DocumentStatus
   a owl:Class ;
   rdfs:label "Document Status"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "The status of the publication of a document."@en ;
   vs:term_status "stable" .
 
@@ -1095,7 +1113,7 @@ bibo:EditedBook
   a owl:Class ;
   rdfs:label "Edited Book"@en ;
   rdfs:subClassOf bibo:CollectedDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An edited book."@en ;
   vs:term_status "stable" .
 
@@ -1103,16 +1121,19 @@ bibo:Email
   a owl:Class ;
   rdfs:label "EMail"@en ;
   rdfs:subClassOf bibo:PersonalCommunicationDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A written communication addressed to a person or organization and transmitted electronically."@en .
 
-bibo:Event a owl:Class .
+bibo:Event
+  a owl:Class ;
+  rdfs:isDefinedBy bibo: .
+
 bibo:Excerpt
   a owl:Class ;
   rdfs:label "Excerpt"@en ;
   rdfs:subClassOf bibo:DocumentPart ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A passage selected from a larger work."@en ;
   vs:term_status "stable" .
 
@@ -1120,7 +1141,7 @@ bibo:Film
   a owl:Class ;
   rdfs:label "Film"@en ;
   rdfs:subClassOf bibo:AudioVisualDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "aka movie."@en ;
   vs:term_status "stable" .
 
@@ -1128,7 +1149,7 @@ bibo:Hearing
   a owl:Class ;
   rdfs:label "Hearing"@en ;
   rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An instance or a session in which testimony and arguments are presented, esp. before an official, as a judge in a lawsuit."@en ;
   vs:term_status "stable" .
 
@@ -1137,7 +1158,7 @@ bibo:Image
   rdfs:label "Image"@en ;
   owl:equivalentClass foaf:Image ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A document that presents visual or diagrammatic information."@en .
 
@@ -1145,7 +1166,7 @@ bibo:Interview
   a owl:Class ;
   rdfs:label "Interview"@en ;
   rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A formalized discussion between two or more people."@en .
 
@@ -1161,7 +1182,7 @@ bibo:Issue
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Article
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "something that is printed or published and distributed, esp. a given number of a periodical"@en ;
   vs:term_status "stable" .
 
@@ -1177,7 +1198,7 @@ bibo:Journal
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Issue
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A periodical of scholarly journal Articles."@en .
 
@@ -1185,7 +1206,7 @@ bibo:LegalCaseDocument
   a owl:Class ;
   rdfs:label "Legal Case Document"@en ;
   rdfs:subClassOf bibo:LegalDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A document accompanying a legal case."@en .
 
@@ -1193,7 +1214,7 @@ bibo:LegalDecision
   a owl:Class ;
   rdfs:label "Decision"@en ;
   rdfs:subClassOf bibo:LegalCaseDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A document containing an authoritative determination (as a decree or judgment) made after consideration of facts or law."@en .
 
@@ -1201,7 +1222,7 @@ bibo:LegalDocument
   a owl:Class ;
   rdfs:label "Legal Document"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A legal document; for example, a court decision, a brief, and so forth."@en .
 
@@ -1209,7 +1230,7 @@ bibo:Legislation
   a owl:Class ;
   rdfs:label "Legislation"@en ;
   rdfs:subClassOf bibo:LegalDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A legal document proposing or enacting a law or a group of laws."@en .
 
@@ -1217,7 +1238,7 @@ bibo:Letter
   a owl:Class ;
   rdfs:label "Letter"@en ;
   rdfs:subClassOf bibo:PersonalCommunicationDocument ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A written or printed communication addressed to a person or organization and usually transmitted by mail."@en .
 
@@ -1233,7 +1254,7 @@ bibo:Magazine
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Issue
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A periodical of magazine Articles. A magazine is a publication that is issued periodically, usually bound in a paper cover, and typically contains essays, stories, poems, etc., by many writers, and often photographs and drawings, frequently specializing in a particular subject or area, as hobbies, news, or sports."@en ;
   vs:term_status "stable" .
 
@@ -1241,7 +1262,7 @@ bibo:Manual
   a owl:Class ;
   rdfs:label "Manual"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A small reference book, especially one giving instructions."@en ;
   vs:term_status "unstable" .
 
@@ -1249,7 +1270,7 @@ bibo:Manuscript
   a owl:Class ;
   rdfs:label "Manuscript"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An unpublished Document, which may also be submitted to a publisher for publication."@en ;
   vs:term_status "stable" .
 
@@ -1257,7 +1278,7 @@ bibo:Map
   a owl:Class ;
   rdfs:label "Map"@en ;
   rdfs:subClassOf bibo:Image ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A graphical depiction of geographic features."@en ;
   vs:term_status "unstable" .
 
@@ -1269,7 +1290,7 @@ bibo:MultiVolumeBook
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Book
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A loose, thematic, collection of Documents, often Books."@en ;
   vs:term_status "stable" .
 
@@ -1285,7 +1306,7 @@ bibo:Newspaper
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Issue
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A periodical of documents, usually issued daily or weekly, containing current news, editorials, feature articles, and usually advertising."@en .
 
@@ -1293,7 +1314,7 @@ bibo:Note
   a owl:Class ;
   rdfs:label "Note"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "Notes or annotations about a resource."@en .
 
@@ -1301,7 +1322,7 @@ bibo:Patent
   a owl:Class ;
   rdfs:label "Patent"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A document describing the exclusive right granted by a government to an inventor to manufacture, use, or sell an invention for a certain number of years."@en ;
   vs:term_status "stable" .
 
@@ -1309,7 +1330,7 @@ bibo:Performance
   a owl:Class ;
   rdfs:label "Performance"@en ;
   rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A public performance."@en .
 
@@ -1325,7 +1346,7 @@ bibo:Periodical
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Issue
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A group of related documents issued at regular intervals."@en .
 
@@ -1333,7 +1354,7 @@ bibo:PersonalCommunication
   a owl:Class ;
   rdfs:label "Personal Communication"@en ;
   rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A communication between an agent and one or more specific recipients."@en .
 
@@ -1341,7 +1362,7 @@ bibo:PersonalCommunicationDocument
   a owl:Class ;
   rdfs:label "Personal Communication Document"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A personal communication manifested in some document."@en ;
   vs:term_status "stable" .
 
@@ -1349,7 +1370,7 @@ bibo:Proceedings
   a owl:Class ;
   rdfs:label "Proceedings"@en ;
   rdfs:subClassOf bibo:Book ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A compilation of documents published from an event, such as a conference."@en .
 
@@ -1357,7 +1378,7 @@ bibo:Quote
   a owl:Class ;
   rdfs:label "Quote"@en ;
   rdfs:subClassOf bibo:Excerpt ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "An excerpted collection of words."@en ;
   vs:term_status "stable" .
 
@@ -1365,7 +1386,7 @@ bibo:ReferenceSource
   a owl:Class ;
   rdfs:label "Reference Source"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A document that presents authoritative reference information, such as a dictionary or encylopedia ."@en .
 
@@ -1373,7 +1394,7 @@ bibo:Report
   a owl:Class ;
   rdfs:label "Report"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A document describing an account or statement describing in detail an event, situation, or the like, usually as the result of observation, inquiry, etc.."@en ;
   vs:term_status "stable" .
 
@@ -1385,7 +1406,7 @@ bibo:Series
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Document
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A loose, thematic, collection of Documents, often Books."@en ;
   vs:term_status "stable" .
 
@@ -1393,7 +1414,7 @@ bibo:Slide
   a owl:Class ;
   rdfs:label "Slide"@en ;
   rdfs:subClassOf bibo:DocumentPart ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A slide in a slideshow"@en ;
   vs:term_status "unstable" .
 
@@ -1405,7 +1426,7 @@ bibo:Slideshow
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Slide
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A presentation of a series of slides, usually presented in front of an audience with written text and images."@en ;
   vs:term_status "stable" .
 
@@ -1413,7 +1434,7 @@ bibo:Specification
   a owl:Class ;
   rdfs:label "Specification"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "testing" ;
   rdfs:comment "A document describing a specification."@en .
 
@@ -1421,7 +1442,7 @@ bibo:Standard
   a owl:Class ;
   rdfs:label "Standard"@en ;
   rdfs:subClassOf bibo:Specification ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "A document describing a standard: a specification organized through a standards body."@en .
 
@@ -1429,7 +1450,7 @@ bibo:Statute
   a owl:Class ;
   rdfs:label "Statute"@en ;
   rdfs:subClassOf bibo:Legislation ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A bill enacted into law."@en ;
   vs:term_status "stable" .
 
@@ -1437,14 +1458,14 @@ bibo:Thesis
   a owl:Class ;
   rdfs:label "Thesis"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A document created to summarize research findings associated with the completion of an academic degree."@en ;
   vs:term_status "stable" .
 
 bibo:ThesisDegree
   a owl:Class ;
   rdfs:label "Thesis degree"@en ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "stable" ;
   rdfs:comment "The academic degree of a Thesis"@en .
 
@@ -1452,7 +1473,7 @@ bibo:Webpage
   a owl:Class ;
   rdfs:label "Webpage"@en ;
   rdfs:subClassOf bibo:Document ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A web page is an online document available (at least initially) on the world wide web. A web page is written first and foremost to appear on the web, as distinct from other online resources such as books, manuscripts or audio documents which use the web primarily as a distribution mechanism alongside other more traditional methods such as print."@en .
 
@@ -1468,7 +1489,7 @@ bibo:Website
     owl:onProperty dc:hasPart ;
     owl:allValuesFrom bibo:Webpage
   ] ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   vs:term_status "unstable" ;
   rdfs:comment "A group of Webpages accessible on the Web."@en .
 
@@ -1476,7 +1497,7 @@ bibo:Workshop
   a owl:Class ;
   rdfs:label "Workshop"@en ;
   rdfs:subClassOf <http://purl.org/NET/c4dm/event.owl#Event> ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:comment "A seminar, discussion group, or the like, that emphasizes zxchange of ideas and the demonstration and application of techniques, skills, etc."@en ;
   vs:term_status "stable" .
 
@@ -1500,14 +1521,12 @@ foaf:Person
 
 bibo:bdarcus
   a owl:Thing, owl:NamedIndividual, foaf:Person ;
-  rdfs:seeAlso "http://purl.org/net/darcusb/info#me"^^xsd:anyURI ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:seeAlso <http://purl.org/net/darcusb/info#me> ;
   foaf:name "Bruce D'Arcus" .
 
 bibo:fgiasson
   a owl:Thing, owl:NamedIndividual, foaf:Person ;
-  rdfs:seeAlso "http://fgiasson.com/me/"^^xsd:anyURI ;
-  rdfs:isDefinedBy "http://purl.org/ontology/bibo/"^^xsd:anyURI ;
+  rdfs:seeAlso <http://fgiasson.com/me/> ;
   foaf:name "Frederick Giasson" .
 
 <http://purl.org/ontology/bibo/degrees/ma>
