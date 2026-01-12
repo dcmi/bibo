@@ -534,6 +534,7 @@ bibo:argued
 
 bibo:asin
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -556,6 +557,7 @@ bibo:chapter
 
 bibo:coden
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -579,6 +581,7 @@ bibo:content
 
 bibo:doi
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -591,6 +594,7 @@ bibo:doi
 
 bibo:eanucc13
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -612,12 +616,14 @@ bibo:edition
 
 bibo:eissn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:domain bibo:Collection ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal .
 
 bibo:gtin14
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -630,6 +636,7 @@ bibo:gtin14
 
 bibo:handle
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -642,6 +649,7 @@ bibo:handle
 
 bibo:identifier
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
     a owl:Class ;
@@ -653,10 +661,12 @@ bibo:identifier
 
 bibo:isbn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier .
 
 bibo:isbn10
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:isbn ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -669,6 +679,7 @@ bibo:isbn10
 
 bibo:isbn13
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:isbn ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -681,6 +692,7 @@ bibo:isbn13
 
 bibo:issn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:domain bibo:Collection ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal .
@@ -697,6 +709,7 @@ bibo:issue
 
 bibo:lccn
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -745,6 +758,7 @@ bibo:number
 
 bibo:oclcnum
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -787,6 +801,7 @@ bibo:pages
 
 bibo:pmid
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -821,6 +836,7 @@ modern society using the world of Star trek. Los Angeles Times, March
 
 bibo:shortDescription
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:domain bibo:Document ;
   rdfs:range rdfs:Literal .
 
@@ -835,6 +851,7 @@ bibo:shortTitle
 
 bibo:sici
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -856,6 +873,7 @@ bibo:suffixName
 
 bibo:upc
   a owl:DatatypeProperty ;
+  rdfs:isDefinedBy bibo: ;
   rdfs:subPropertyOf bibo:identifier ;
   rdfs:range rdfs:Literal ;
   rdfs:domain [
@@ -1107,7 +1125,10 @@ bibo:Email
   vs:term_status "stable" ;
   rdfs:comment "A written communication addressed to a person or organization and transmitted electronically."@en .
 
-bibo:Event a owl:Class .
+bibo:Event
+  a owl:Class ;
+  rdfs:isDefinedBy bibo: .
+
 bibo:Excerpt
   a owl:Class ;
   rdfs:label "Excerpt"@en ;
