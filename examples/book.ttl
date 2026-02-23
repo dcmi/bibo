@@ -1,0 +1,8 @@
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+<urn:isbn:23983498> a bibo:Book ;
+    dc:creator <http://examples.net/contributors/2> ;
+    dc:title "Book Title"@en ;
+    dc:date "2000" ;
+    dc:publisher <http://ex.net/agents/1> .

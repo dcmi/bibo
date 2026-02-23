@@ -1,0 +1,40 @@
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+##
+# First, we have a standard journal article. We link the article directly to the journal, though a more detailed representation could also model the issue. Also, we represent the ordered author list using an rdf:List
+
+<info:doi/10.1134/S0003683806040089> a bibo:Article ;
+    dc:title "Effect of argillaceous minerals on the growth of phosphate-mobilizing bacteria Bacillus subtilis"@en ;
+    dc:date "2006-01-01" ;
+    dc:isPartOf <urn:issn:23346587> ;
+    bibo:volume "42" ;
+    bibo:issue "4" ;
+    bibo:pageStart "388" ;
+    bibo:pageEnd "391" ;
+    dc:creator <http://examples.net/contributors/2> ;
+    dc:creator <http://examples.net/contributors/1> ;
+    bibo:authorList ( <http://examples.net/contributors/2> <http://examples.net/contributors/1>) .
+
+<urn:issn:23346587> a bibo:Journal ;
+    dc:title "Applied Biochemistry and Microbiology"@en ;
+    bibo:shortTitle "App Biochem and Biol"@en .
+
+##
+# Next, we have a newspaper article published on the internet.
+
+<http://www.nytimes.com/2007/07/09/us/09cnd-penn.html> a bibo:Article ;
+    dc:isPartOf <http://www.nytimes.com> ;
+    dc:date "2007-07-09" ;
+    bibo:uri "http://www.nytimes.com/2007/07/09/us/09cnd-penn.html" ;
+    dc:creator <http://examples.net/contributors/100> .
+
+<http://www.nytimes.com> a bibo:Periodical ;
+    bibo:uri "http://www.nytimes.com" ;
+    dc:title "New York Times" .
+
+<http://examples.net/contributors/100> a foaf:Person;
+    foaf:givenname "Anahad" ;
+    foaf:family_name "O'Connor" .

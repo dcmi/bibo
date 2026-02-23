@@ -1,0 +1,61 @@
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+<http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/> a bibo:Series ;
+  dcterms:title "CEUR Workshop Proceedings" ;
+  bibo:shortTitle "CEUR workshop proc." ;
+  bibo:issn "1613-0073" ;
+  dcterms:publisher <http://infolab.uvt.nl/~jeusfeld/> ;
+  dcterms:hasPart <http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/> ;
+  dcterms:relation <http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/> ;
+  bibo:status <http://purl.org/ontology/bibo/status/published> .
+
+<http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/> a bibo:Document ;
+  bibo:uri "http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/" .
+
+<http://infolab.uvt.nl/~jeusfeld/> a foaf:Person ;
+  bibo:familyName "Jeusfeld" ;
+  bibo:givenName "Manfred" .
+
+<http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/> a bibo:Proceeding ;
+  dcterms:title "SFSW '07 Scripting for the Semantic Web" ;
+  bibo:shortTitle "SFSW2007" ;
+  dcterms:date "2007-05-01" ;
+  bibo:volume "248" ;
+  dcterms:partOf <http://sunsite.informatik.rwth-aachen.de/Publications/CEUR-WS/> ;
+  dcterms:relation <http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/proceedings.pdf> ;
+  bibo:editor <http://www.auer.cx/soeren> ,
+    <http://www.bizer.de#chris> ,
+    <http://kmi.open.ac.uk/people/tom/> ,
+    <http://www.dfki.uni-kl.de/~grimnes/foaf.rdf#ggrimnes> ;
+  bibo:contributorList [ a rdf:Seq ;
+      rdf:_1 <http://www.auer.cx/soeren> ;
+      rdf:_2 <http://www.bizer.de#chris> ;
+      rdf:_3 <http://kmi.open.ac.uk/people/tom/> ;
+      rdf:_4 <http://www.dfki.uni-kl.de/~grimnes/foaf.rdf#ggrimnes> ] ;
+  dcterms:hasPart <http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/paper11/> ;
+  bibo:status <http://purl.org/ontology/bibo/status/published> .
+
+<http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/proceedings.pdf> a bibo:Document ;
+  bibo:uri "http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/proceedings.pdf" .
+
+<http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/paper11/> a bibo:Article ;
+  dcterms:title "An Architecture to Discover and Query Decentralized RDF Data" ;
+  dcterms:date "2007-05-01" ;
+  dcterms:partOf <http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/> ;
+  dcterms:relation <http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/paper11.pdf> ;
+  dcterms:creator <http://captsolo.net/semweb/foaf-captsolo.rdf#Uldis_Bojars> ,
+    <http://tmp.apassant.net/foaf.rdf#alex> ,
+    <http://fgiasson.com/me/> ;
+  bibo:authorList [ a rdf:Seq ;
+      rdf:_1 <http://captsolo.net/semweb/foaf-captsolo.rdf#Uldis_Bojars> ;
+      rdf:_2 <http://tmp.apassant.net/foaf.rdf#alex> ;
+      rdf:_3 <http://fgiasson.com/me/> ] ;
+  bibo:status <http://purl.org/ontology/bibo/status/peerReviwed> ,
+    <http://purl.org/ontology/bibo/status/accepted> ,
+    <http://purl.org/ontology/bibo/status/published> .
+
+<http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/paper11.pdf> a bibo:Document ;
+  bibo:uri "http://ftp.informatik.rwth-aachen.de/Publications/CEUR-WS/Vol-248/paper11.pdf" .

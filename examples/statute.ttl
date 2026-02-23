@@ -1,0 +1,4 @@
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+<http://examples.net/statute/1> a bibo:Statute ;
+. # ...put the code here

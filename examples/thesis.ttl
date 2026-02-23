@@ -1,0 +1,16 @@
+prefix address: <http://schemas.talis.com/2005/address/schema#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+<http://examples.net/dissertation> a bibo:Thesis ;
+    dc:date "1998-01-01" ;
+    dc:title "Dissertation Title"@en ;
+    bibo:issuer <http://examples.net/things/6> ;
+    bibo:degree <http://examples.net/bibo_degrees:phd> ;
+    dc:creator <http://examples.net/contributors/1> .
+
+<http://examples.net/things/6> a foaf:Organization ;
+    foaf:name "National University" ;
+    address:localityName "Singapore" .
