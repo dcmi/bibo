@@ -1,0 +1,33 @@
+prefix foaf: <http://xmlns.com/foaf/0.1/>
+prefix dcterms: <http://purl.org/dc/terms/>
+prefix event: <http://purl.org/NET/c4dm/event.owl#>
+prefix dc: <http://purl.org/dc/elements/1.1/>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix bibo: <http://purl.org/ontology/bibo/>
+
+<http://fgiasson.com/articles/swfp/> a bibo:Article ;
+  dcterms:title "An Architecture to Discover and Query Decentralized RDF Data" ;
+  dcterms:date "2007-05-01" ;
+  dcterms:relation <http://fgiasson.com/articles/swfp.pdf> ;
+  dcterms:creator <http://fgiasson.com/me/> ;
+  bibo:status <http://purl.org/ontology/bibo/status/peerReviwed> ,
+    <http://purl.org/ontology/bibo/status/rejected> ,
+    <http://purl.org/ontology/bibo/status/unpublished> ;
+  bibo:presentedAt <http://www.unb.ca/pstnet/pst2005/> .
+
+<http://fgiasson.com/articles/swfp.pdf> a bibo:Document ;
+  bibo:uri "http://fgiasson.com/articles/swfp.pdf" .
+
+<http://fgiasson.com/articles/swfp/note/1/> a bibo:Note ;
+  bibo:content "I wrote this paper to try to find a solution to the growing problem of the secure distribution of private web feeds." ;
+  bibo:annotates <http://fgiasson.com/articles/swfp/> ;
+  dcterms:creator <http://fgiasson.com/me/> .
+
+<http://www.unb.ca/pstnet/pst2005/> a bibo:Conference ;
+  bibo:organizer <http://www.unb.ca/about/> ;
+  event:place <http://sws.geonames.org/6137411/about.rdf> ;
+  dcterms:date "2005-09-12" .
+
+<http://www.unb.ca/about/> a foaf:Organization ;
+  foaf:name "University of New Brunswick" ;
+  foaf:homepage <http://www.unb.ca/> .
